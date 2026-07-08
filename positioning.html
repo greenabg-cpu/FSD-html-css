@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>CSS Positioning</title>
+
+    <style>
+        .container {
+            width: 400px;
+            height: 250px;
+            background-color: lightgray;
+            position: relative;
+            margin: 50px;
+        }
+
+        .box1 {
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+
+            position: relative;
+            top: 30px;
+            left: 30px;
+        }
+
+        .box2 {
+            width: 80px;
+            height: 80px;
+            background-color: tomato;
+
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="box1">
+            Relative Box
+        </div>
+
+        <div class="box2">
+            Absolute Box
+        </div>
+
+    </div>
+
+</body>
+</html>
